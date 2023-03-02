@@ -51,4 +51,8 @@
 
     // More info in the title bar
     "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+
+    // Highlight current section with vertical line. Also add colors.
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
 }
