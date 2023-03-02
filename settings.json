@@ -1,0 +1,54 @@
+{
+    // First install vspacecode extension.
+
+    // Settings automatically added //
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    //////////////////////////////////
+
+    //////////// Font ////////////////
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    // Font size
+    "editor.fontSize": 13,
+    "debug.console.fontSize": 13,
+    // More lines on screen
+    "editor.lineHeight": 1.2,
+    //////////////////////////////////
+
+    "editor.minimap.enabled": false,
+
+    "editor.wordWrap": "on",
+
+    // See where you are
+    "editor.stickyScroll.enabled": true,
+
+    // No more ctrl+s
+    "files.autoSave": "afterDelay",
+
+    // Be a decent human being
+    "files.trimTrailingWhitespace": true,
+
+    // Save space
+    "editor.folding": false,
+
+    // Search case sensitive when Upper case
+    "search.smartCase": true,
+
+    // No blink cursor
+    "editor.cursorBlinking": "solid",
+
+    // Colors
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#ff0000",
+        "tab.unfocusedActiveBorder": "#00000000",
+        "editorCursor.foreground": "#e2a41e",
+        "terminalCursor.foreground": "#e2a41e"
+    },
+
+    // Please your eyes
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // More info in the title bar
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+}
