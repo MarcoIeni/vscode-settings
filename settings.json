@@ -20,7 +20,7 @@
 
     "editor.wordWrap": "on",
 
-    // See where you are
+    // See which function you are in
     "editor.stickyScroll.enabled": true,
 
     // No more ctrl+s
@@ -55,4 +55,15 @@
     // Highlight current section with vertical line. Also add colors.
     "editor.guides.bracketPairs": true,
     "editor.guides.bracketPairsHorizontal": false,
+
+    // VSCode automatically runs git fetch to retrieve the status of the repo.
+    "git.autofetch": true,
+
+    "telemetry.telemetryLevel": "off",
+
+    // Preview the autocomplete suggestions.
+    "editor.suggest.preview": true,
+
+    // Show readme on startup
+    "workbench.startupEditor": "readme",
 }
