@@ -1,6 +1,4 @@
 {
-    // First install vspacecode extension.
-
     // Settings automatically added //
     "vim.easymotion": true,
     "vim.useSystemClipboard": true,
@@ -66,4 +64,8 @@
 
     // Show readme on startup
     "workbench.startupEditor": "readme",
+
+    // Don't open file in preview-mode
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 }
