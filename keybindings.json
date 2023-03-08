@@ -175,7 +175,6 @@
 		"command": "workbench.action.navigateRight",
 		"when": "isInDiffEditor && !isInDiffLeftEditor"
 	},
-
 	// toggles
 	{
 		"key": "cmd+1",
@@ -243,5 +242,22 @@
 		"key": "shift+alt+f5",
 		"command": "-workbench.action.compareEditor.previousChange",
 		"when": "textCompareEditorVisible"
+	},
+
+	// navigate code actions
+	{
+		"key": "ctrl+j",
+		"command": "selectNextCodeAction",
+		"when": "codeActionMenuVisible"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "selectPrevCodeAction",
+		"when": "codeActionMenuVisible"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "acceptSelectedCodeAction",
+		"when": "codeActionMenuVisible"
 	},
 ]
