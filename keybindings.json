@@ -199,6 +199,10 @@
 		"command": "-workbench.action.focusFirstEditorGroup"
 	},
 	{
+		"key": "cmd+2",
+		"command": "-workbench.action.focusSecondEditorGroup"
+	},
+	{
 		"key": "cmd+3",
 		"command": "-workbench.action.focusThirdEditorGroup"
 	},
@@ -243,7 +247,6 @@
 		"command": "-workbench.action.compareEditor.previousChange",
 		"when": "textCompareEditorVisible"
 	},
-
 	// navigate code actions
 	{
 		"key": "ctrl+j",
