@@ -1,9 +1,4 @@
 {
-    // Settings automatically added //
-    "vim.easymotion": true,
-    "vim.useSystemClipboard": true,
-    //////////////////////////////////
-
     //////////// Font ////////////////
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
@@ -53,9 +48,6 @@
     // Highlight current section with vertical line. Also add colors.
     "editor.guides.bracketPairs": true,
     "editor.guides.bracketPairsHorizontal": false,
-
-    // VSCode automatically runs git fetch to retrieve the status of the repo.
-    "git.autofetch": true,
 
     "telemetry.telemetryLevel": "off",
 
