@@ -181,6 +181,11 @@
 		"key": "cmd+1",
 		"command": "workbench.action.toggleSidebarVisibility"
 	},
+	// disable cmd+b
+	{
+		"key": "cmd+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
 	{
 		"key": "cmd+2",
 		"command": "workbench.action.focusActiveEditorGroup"
@@ -197,5 +202,46 @@
 	{
 		"key": "cmd+3",
 		"command": "-workbench.action.focusThirdEditorGroup"
+	},
+	// Git conflicts with ctrl+shift+j and ctrl+shift+k instead of alt+f5 and shift+alt+f5
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.editor.nextChange",
+		"when": "editorTextFocus && !textCompareEditorActive"
+	},
+	{
+		"key": "alt+f5",
+		"command": "-workbench.action.editor.nextChange",
+		"when": "editorTextFocus && !textCompareEditorActive"
+	},
+	{
+		"key": "ctrl+shift+k",
+		"command": "workbench.action.editor.previousChange",
+		"when": "editorTextFocus && !textCompareEditorActive"
+	},
+	{
+		"key": "shift+alt+f5",
+		"command": "-workbench.action.editor.previousChange",
+		"when": "editorTextFocus && !textCompareEditorActive"
+	},
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.compareEditor.nextChange",
+		"when": "textCompareEditorVisible"
+	},
+	{
+		"key": "alt+f5",
+		"command": "-workbench.action.compareEditor.nextChange",
+		"when": "textCompareEditorVisible"
+	},
+	{
+		"key": "ctrl+shift+k",
+		"command": "workbench.action.compareEditor.previousChange",
+		"when": "textCompareEditorVisible"
+	},
+	{
+		"key": "shift+alt+f5",
+		"command": "-workbench.action.compareEditor.previousChange",
+		"when": "textCompareEditorVisible"
 	},
 ]
